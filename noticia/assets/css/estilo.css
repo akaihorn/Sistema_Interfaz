@@ -1,70 +1,249 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap');
 
-body{
+body {
     font-size: 18px;
+    margin: 0px;
+}
+
+
+
+header {
     padding-left: 9.5%;
-    padding-right: 17%;
+    padding-right: 10%;
 }
 
-main{
-    padding-left: 15%;
-    padding-right: 20%;
+main {
+    padding-left: 20%;
 }
 
-
-
-h1 { border-top: darkblue solid 2px;
-padding-top: 35px;
-border-bottom: darkgray solid 1px;
-padding-bottom: 15px;
-padding-left: 10%;
-font-size: 40px;
+article {
+    padding-right: 39%;
 }
 
-h2 {color: rgb(63, 63, 63);
+aside {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 25%;
+    float: right;
+    margin-right: 10%;
+    font-weight: bold;
+}
+
+h1 {
+
     border-bottom: darkgray solid 1px;
     padding-bottom: 15px;
-    margin-right: 20%;
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 18px;
-    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    display: block;
+    margin-top: 10px;
 }
 
-h3 {color: rgb(230, 122, 45);
-font-size: 30;
+h2 {
+    color: rgb(63, 63, 63);
+    border-bottom: darkgray solid 1px;
+    padding-bottom: 15px;
+    margin-right: 27.5%;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+h3 {
+    color: rgb(230, 122, 45);
+    font-size: 30;
 }
 
 p {
     color: rgb(43, 43, 43);
 }
 
-blockquote { color: dodgerblue;
+blockquote {
+    color: dodgerblue;
 }
 
-.imagenes { background-color: rgb(240, 240, 240);
-padding-top: 10px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 0.5px;
-font-size: 14;
-font-family: Arial, Helvetica, sans-serif;
+footer {
+    background-color: rgb(97, 123, 194);
+    padding: 70px;
+    padding-top: 40px;
+    padding-bottom: 300px;
+    margin-top: 80px;
+}
+
+.navSupeior {
+    background-color: rgb(100, 57, 39);
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 50px;
+
+}
+
+.elementosNav {
+    float: right;
+    padding: 8px;
+    
+}
+
+.titulosaside {
+    font-size: 22px;
+    font-weight: normal;
+    color: white;
+    padding: 20px;
+    background-color: teal;
+}
+
+.espaciosaside {
+    padding-bottom: 40px;
+    margin-top: 15px;
+    border-top: rgb(218, 218, 218) solid 1px;
+}
+
+
+.imgaside {
+    width: 70px;
+    float: left;
+    padding: 20px;
+}
+
+.textosaside {
+    padding-left: 110px;
+}
+
+.fondosaside {
+    background-color: rgb(236, 236, 236);
+}
+
+.imagenes {
+    background-color: rgb(240, 240, 240);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0.5px;
+    font-size: 14;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .tamañoImagenes {
     width: 100.5%
 }
 
-.rayita { 
+.rayita {
     margin-top: 15px;
-    border-top: darkgray solid 1px;
+    border-top: rgb(218, 218, 218) solid 1px;
 }
 
-.espacioBarra { 
-padding-bottom: 5px;
+.espacioBarra {
+    padding-bottom: 5px;
+}
+
+.ulFooter1 {
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    width: 20%;
+    padding: 0;
+    padding-left: 30%;
+    float: left;
+}
+
+.ulFooter2 {
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    padding: 0;
+    width: 20%;
+    padding-right: 30%;
+    float: right;
+}
+
+.elementosUlFooter {
+    padding: 5px;
+}
+
+#imgElMostradorNav {
+    width: 200px;
+    float: left;
+}
+
+#culturaNav {
+    color: white;
+
+}
+
+#buscarNav {
+    border: rgb(170, 170, 170) 1px;
+
+}
+
+#ingresarNav {
+    color: white;
+    background-color: rgb(44, 124, 68);
+    line-height: 1.11111;
+    min-height: 20px;
+}
+
+#noticias {
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 2px;
+    border-bottom: darkblue solid 2px;
+
+}
+
+#culturaCiencia {
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 0px;
+    margin-top: 2px;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: rgb(230, 122, 45);
+    line-height: 1.11111;
+    min-height: 20px;
+    width: 130px;
+}
+
+#imgCultura {
+    float: left;
 }
 
 #fecha {
     font-size: 12px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-bottom: 15px;
+}
+
+#barraBbcFinal {
+    width: 700px;
+}
+
+#imgElMostradorFooter {
+    width: 250px;
+}
+
+#ulNav {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(170, 170, 170);
+    list-style: none;
+}
+
+#lineaFooter {
+    padding-bottom: 160px;
+    border-bottom: white solid 1px;
+}
+
+#contacto {
+    
+    color: white;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
