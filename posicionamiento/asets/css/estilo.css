@@ -1,0 +1,131 @@
+.banderaRoja {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    border: solid black 1px;
+    margin: 10px;
+}
+
+#franciaazul {
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    background-color: blue;
+    border-right: solid white 100px;
+}
+
+#colombia {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border-bottom: solid blue 50px;
+}
+
+#espana {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    top: 50px;
+}
+
+#escudo {
+    position: absolute;
+    height: 80px;
+    top: 10px;
+    left: 60px;
+}
+
+#costaRica1 {
+    position: absolute;
+    width: 300px;
+    height: 33.3px;
+    background-color: blue;
+    border-bottom: solid white 33.3px;
+
+}
+
+#costaRica2 {
+    position: absolute;
+    width: 300px;
+    height: 33.3px;
+    background-color: blue;
+    border-top: solid white 33.3px;
+    top: 133.4px;
+}
+
+#islandia1 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    border-right: solid white 10px;
+    border-bottom: solid white 10px;
+}
+
+#islandia2 {
+    position: absolute;
+    width: 180px;
+    height: 80px;
+    background-color: blue;
+    border-left: solid white 10px;
+    border-bottom: solid white 10px;
+    left: 110px;
+}
+
+#islandia3 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    border-top: solid white 10px;
+    border-right: solid white 10px;
+    top: 110px;
+}
+
+#islandia4 {
+    position: absolute;
+    width: 180px;
+    height: 80px;
+    background-color: blue;
+    border-top: solid white 10px;
+    border-left: solid white 10px;
+    top: 110px;
+    left: 110px;
+}
+
+.banderaBlanca {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: solid black 1px;
+    margin: 10px;
+}
+
+#japon {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    top: 50px;
+    left: 100px;
+    border-radius: 50%;
+}
+
+#chile {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-right: solid white 200px;
+}
+
+#estrella {
+    position: absolute;
+    width: 66.7px;
+    top: 16.7px;
+    left: 16.7px;
+}
